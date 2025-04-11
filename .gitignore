@@ -1,0 +1,62 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Logs
+*.log
+*.tlog
+
+# Visual Studio specific
+.vs/
+.vscode/
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# DotNet specific
+*.dll
+*.exe
+*.pdb
+*.cache
+*.config
+*.ide
+*.props
+*.targets
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Coverage and test results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Secrets
+secrets.json
+appsettings.Development.json
